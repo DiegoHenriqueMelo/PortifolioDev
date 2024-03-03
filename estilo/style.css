@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: black;
+}
+ul{
+    text-align: end;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    display: inline;
+}
+h1:hover, a:hover{
+    color: purple;  
+    text-shadow: 2px 2px 15px purple;
+    border-bottom: 1px solid purple;
+    box-shadow: 2px 2px 15px purple;
+}
+h2{
+    text-align: center;
+}
+main{
+    padding: 20px;
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.767));
+    height: auto;
+}
+strong{
+    color: purple;
+    text-shadow: 2px 2px 15px purple;
+    font-size: 30px;
+}
+i{
+    font-size: 16px;
+}
+i:hover{
+    color: purple;
+    text-shadow: 2px 2px 15px purple;
+}
+#prin{
+    padding: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#foto{
+    height: 200px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px purple;
+}
+#sobre{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#sobre > h2{
+    margin-bottom: 15px;
+}
+#projetos{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title-proj{
+    padding: 5px;
+}
+.urban{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.urban:hover{
+    height: 370px;
+    transition: 0.2s;
+    overflow: auto;
+}
+h4{
+    color: purple;
+    text-shadow: 2px 2px 15px purple;
+}.urban > p{
+    margin-top: 10px;
+}
+.btn-proj{
+    padding: 10px;
+    margin: 30px;
+    background-color: purple;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+.btn-proj:hover{
+    box-shadow: 2px 2px 15px purple, inset 2px 2px 15px purple;
+    color: white;
+}
+.feira{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.feira:hover{
+    height: 370px;
+    transition: 0.2s;
+    overflow: auto;
+}
+.feira > p{
+    margin-top: 10px;
+}
+.produ{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.produ:hover{
+    height: 370px;
+    transition: 0.2s;
+    overflow: auto;
+}
+.produ > p{
+    margin-top: 10px;
+}
+#img-tec{
+    filter: grayscale(0);
+}
