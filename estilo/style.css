@@ -175,6 +175,12 @@ h4{
 .list > ul > a{
     font-size: 18px;
 }
+.list > ul > a:hover{
+    color: white;
+    text-shadow: 2px 2px 15px white;
+    font-size: 19px;
+    transition: .5s;
+}
 #contatos{
     background-color: purple;
     padding: 30px;
