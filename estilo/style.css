@@ -64,9 +64,6 @@ i:hover{
 }
 #img-sobre{
     height: 50px;
-}
-/* #img-sobre{
-    height: 150px;
     border-radius: 50px 70px 30px 90px;
     border: 4px solid purple;
     box-shadow: 2px 2px 100px purple;
@@ -79,8 +76,7 @@ i:hover{
     50%{
         transform: translateY(-20px);
     }
-} */
-
+}
 #foto{
     height: 200px;
     border: 3px solid purple;
