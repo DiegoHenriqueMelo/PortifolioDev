@@ -34,21 +34,7 @@ h1:hover, a:hover{
 h2{
     text-align: center;
 }
-#img-sobre{
-    height: 150px;
-    border-radius: 50px 70px 30px 90px;
-    border: 4px solid purple;
-    box-shadow: 2px 2px 100px purple;
-    animation: float 3s ease-in-out infinite;
-}
-@keyframes float{
-    0%, 100%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-20px);
-    }
-}
+
 main{
     padding: 20px;
     padding-top: 30px;
@@ -72,18 +58,28 @@ i:hover{
     text-shadow: 2px 2px 15px purple;
 }
 #prin{
-    padding: 10px;
-    margin-bottom: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
 }
-#prin > h2{
-    font-size: 20px;
+#img-sobre{
+    height: 150px;
 }
-#prin > h2 > strong{
-    font-size: 30px;
+/* #img-sobre{
+    height: 150px;
+    border-radius: 50px 70px 30px 90px;
+    border: 4px solid purple;
+    box-shadow: 2px 2px 100px purple;
+    animation: float 3s ease-in-out infinite;
 }
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+} */
 
 #foto{
     height: 200px;
