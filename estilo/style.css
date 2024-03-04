@@ -19,9 +19,6 @@ h1{
     font-size: 36px;
 }
 nav{
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
     padding: 15px;
     align-items: center;
     background-color: black;
@@ -203,6 +200,7 @@ h4{
 }
 .list > ul > a{
     font-size: 18px;
+    cursor: pointer;
 }
 .list > ul > a:hover{
     color: white;
