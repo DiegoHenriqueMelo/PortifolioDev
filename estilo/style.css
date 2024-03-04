@@ -60,11 +60,13 @@ i:hover{
 #prin{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-around;
     padding: 10px;
 }
 #img-sobre{
-    height: 50px;
+    height: 150px;
+    margin-top: 30px;
     border-radius: 50px 70px 30px 90px;
     border: 4px solid purple;
     box-shadow: 2px 2px 100px purple;
