@@ -5,16 +5,21 @@
 body{
     color: white;
 }
+h1{
+    font-size: 36px;
+}
 nav{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding: 15px;
     align-items: center;
     background-color: black;
+    text-align: center;
 }
 ul{
-    text-align: end;
+    margin-top: 10px;
+    font-size: 29px;
 }
 a{
     text-decoration: none;
@@ -25,22 +30,39 @@ a{
 h1:hover, a:hover{
     color: purple;  
     text-shadow: 2px 2px 15px purple;
-    border-bottom: 1px solid purple;
-    box-shadow: 2px 2px 15px purple;
 }
 h2{
     text-align: center;
 }
+#img-sobre{
+    height: 150px;
+    border-radius: 50px 70px 30px 90px;
+    border: 4px solid purple;
+    box-shadow: 2px 2px 100px purple;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
 main{
     padding: 20px;
     padding-top: 30px;
-    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.767));
+    background-image: linear-gradient(to bottom, black, black, black, black, purple);
     height: auto;
 }
 strong{
     color: purple;
-    text-shadow: 2px 2px 15px purple;
+    text-shadow: 2px 2px 15px #800080;
     font-size: 30px;
+}
+strong:hover{
+    text-shadow: 1px 1px 1px #f707f7;
+    color: white;
 }
 i{
     font-size: 16px;
@@ -56,11 +78,18 @@ i:hover{
     justify-content: space-between;
     align-items: center;
 }
+#prin > h2{
+    font-size: 20px;
+}
+#prin > h2 > strong{
+    font-size: 30px;
+}
+
 #foto{
     height: 200px;
     border: 3px solid purple;
-    border-radius: 50%;
-    box-shadow: 2px 2px 15px purple;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px purple;
 }
 #sobre{
     text-align: center;
@@ -70,6 +99,7 @@ i:hover{
 #sobre > h2{
     margin-bottom: 15px;
 }
+
 #projetos{
     padding: 10px;
     display: flex;
@@ -143,6 +173,26 @@ h4{
 .produ > p{
     margin-top: 10px;
 }
-#img-tec{
-    filter: grayscale(0);
+#tec{
+    padding: 10px;
+}
+.list > ul{
+    text-align: center;
+}
+.list > ul > a{
+    font-size: 18px;
+}
+#contatos{
+    background-color: purple;
+    padding: 30px;
+    text-align: center;
+}
+.div-ctt{
+    margin: 10px 0px 0px 10px;
+    font-size: 20px;
+}
+.div-ctt > a{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
 }
