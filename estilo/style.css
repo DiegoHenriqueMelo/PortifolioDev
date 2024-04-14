@@ -11,7 +11,7 @@
     src: url(../font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf) format(opentype);
 }
 body{
-    color: white;
+    color: black;
     font-family: 'Josefin';
 }
 h1{
@@ -21,7 +21,7 @@ h1{
 nav{
     padding: 15px;
     align-items: center;
-    background-color: black;
+    background-color: white;
     text-align: center;
 }
 ul{
@@ -30,7 +30,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     margin-left: 10px;
     display: inline;
 }
@@ -44,9 +44,9 @@ h2{
 }
 
 main{
-    padding: 20px;
-    padding-top: 30px;
-    background-image: linear-gradient(to bottom, black, black, black, black, purple);
+    /* padding: 20px;
+    padding-top: 30px; */
+    /* background-image: linear-gradient(to bottom, black, black, black, black, purple); */
     height: auto;
 }
 strong{
@@ -71,6 +71,7 @@ i:hover{
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
+    background-color: rgb(209, 103, 209);
 }
 #img-sobre{
     height: 150px;
@@ -95,9 +96,9 @@ i:hover{
     box-shadow: 2px 2px 100px purple;
 }
 #sobre{
+    background-color: rgb(170, 0, 170);
     text-align: center;
     padding: 10px;
-    margin-bottom: 40px;
     line-height: 1.5;
     font-size: 20px;
 }
@@ -111,7 +112,7 @@ i:hover{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    background-color: purple;
 }
 .title-proj{
     padding: 15px;
@@ -128,7 +129,7 @@ i:hover{
     border-radius: 0px 0px 20px 20px;
 }
 .urban:hover{
-    height: 370px;
+    height: auto;
     transition: 0.2s;
     overflow: auto;
 }
@@ -140,7 +141,6 @@ h4{
 }
 .btn-proj{
     padding: 10px;
-    margin: 30px;
     background-color: purple;
     border: 1px solid purple;
     border-radius: 10px;
@@ -192,6 +192,7 @@ h4{
 }
 #tec{
     padding: 20px;
+    background-color: rgb(170, 0, 170);
 
 }
 .list > ul{
@@ -209,7 +210,7 @@ h4{
     transition: .5s;
 }
 #contatos{
-    background-color: purple;
+    background-color: white;
     padding: 30px;
     text-align: center;
 }
@@ -224,6 +225,15 @@ h4{
 }
 em{
     font-size: 20px;
-    color: rgb(165, 4, 165);  
-    text-shadow: 2px 2px 15px rgb(190, 4, 190);    
+    color: white;
+}
+.btn-ctt{
+    color: purple;
+    border: 1px solid purple;
+}
+.btn-ctt:hover{
+    color: white;
+    background-color: purple;
+    border: 1px solid purple;
+    transition: .5s;
 }
