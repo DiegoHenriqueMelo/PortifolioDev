@@ -10,230 +10,107 @@
     font-family:'Josefin';
     src: url(../font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf) format(opentype);
 }
+:root{
+
+    --color1: #fff;
+    --color2: #ca87d5;
+    --color3: #9e4faa;
+    --color4: #742680;
+    --color5: #4b0b55;
+    --color6: #2c0033;
+
+    --font1: 'Josefin';
+    --font2: 'Lexend';
+}
 body{
-    color: black;
-    font-family: 'Josefin';
+    background-color: var(--color1);
+    /* padding: 20px; */
+}
+header{
+    border-bottom: 2px var(--color5) solid;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--font2);
+    height: 20vh;
+    /* padding: 0px 20px; */
 }
 h1{
-    font-family: 'Lexend';
-    font-size: 36px;
-}
-nav{
-    padding: 15px;
-    align-items: center;
-    background-color: white;
-    text-align: center;
+    /* border: 1px solid orange; */
+    /* width: 50vw; */
 }
 ul{
-    margin-top: 10px;
-    font-size: 29px;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 5px;
+    /* border: 1px solid purple; */
+    width: 80vw;
+
 }
 a{
-    text-decoration: none;
     color: black;
-    margin-left: 10px;
-    display: inline;
+    text-decoration: none;
 }
-
-h1:hover, a:hover{
-    color: purple;  
-    text-shadow: 2px 2px 15px purple;
+main{
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
 }
 h2{
-    text-align: center;
-}
-
-main{
-    /* padding: 20px;
-    padding-top: 30px; */
-    /* background-image: linear-gradient(to bottom, black, black, black, black, purple); */
-    height: auto;
-}
-strong{
-    color: purple;
-    text-shadow: 2px 2px 15px #800080;
-    font-size: 30px;
-}
-strong:hover{
-    text-shadow: 1px 1px 1px #f707f7;
-    color: white;
-}
-i{
-    font-size: 16px;
-}
-i:hover{
-    color: purple;
-    text-shadow: 2px 2px 15px purple;
-}
-#prin{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 10px;
-    background-color: rgb(209, 103, 209);
-}
-#img-sobre{
-    height: 150px;
-    margin-top: 30px;
-    border-radius: 50px 70px 30px 90px;
-    border: 4px solid purple;
-    box-shadow: 2px 2px 100px purple;
-    animation: float 3s ease-in-out infinite;
-}
-@keyframes float{
-    0%, 100%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-20px);
-    }
-}
-#foto{
-    height: 200px;
-    border: 3px solid purple;
-    border-radius: 20px;
-    box-shadow: 2px 2px 100px purple;
+    font-family: var(--font1);
 }
 #sobre{
-    background-color: rgb(170, 0, 170);
-    text-align: center;
-    padding: 10px;
-    line-height: 1.5;
-    font-size: 20px;
-}
-#sobre > h2{
-    margin-bottom: 15px;
-}
-
-#projetos{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: purple;
-}
-.title-proj{
-    padding: 15px;
-}
-.urban{
-    background-color: white;
-    color: black;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
-    border: 4px solid rgb(184, 6, 184);
-    box-shadow: 2px 2px 50px purple, inset 2px 2px 10px purple;
-    border-radius: 0px 0px 20px 20px;
-}
-.urban:hover{
     height: auto;
-    transition: 0.2s;
-    overflow: auto;
+    padding: 20px 20px;
 }
-h4{
-    color: purple;
-    text-shadow: 2px 2px 15px purple;
-}.urban > p{
-    margin-top: 10px;
+aside{
+    /* border: 1px solid blue; */
+    height: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: var(--color4);
+    color: var(--color1);
 }
-.btn-proj{
-    padding: 10px;
-    background-color: purple;
-    border: 1px solid purple;
-    border-radius: 10px;
+.img-skills{
+    /* border: 1px solid red; */
+    margin: 10px 0px;
 }
-.btn-proj:hover{
-    box-shadow: 2px 2px 15px purple, inset 2px 2px 15px purple;
-    color: white;
+section{
+    /* border: 1px solid yellow; */
+    height: auto;
+    padding: 20px 20px;
 }
-.feira{
-    background-color: white;
-    color: black;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
-    border: 4px solid rgb(184, 6, 184);
-    box-shadow: 2px 2px 50px purple, inset 2px 2px 10px purple;
-    border-radius: 0px 0px 20px 20px;
+.img-skills{
+    border: 1px solid var(--color1);
+    margin: 10px 0px;
+    height: 20vh;
+    width: 85vw;
 }
-.desc-proj{
-    padding: 0px  3px;
+.img-proj, .desc-proj, .img-sobre, .img-sobre{
+    border: 1px solid red;
+    height: 20vh;
+    width: 85vw;
 }
-.feira:hover{
-    height: 370px;
-    transition: 0.2s;
-    overflow: auto;
+.proj{
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: column-reverse nowrap;
 }
-.feira > p{
-    margin-top: 10px;
+.proj:nth-child(odd){
+    display: flex;
+    flex-flow: column-reverse nowrap;
 }
-.produ{
-    background-color: white;
-    color: black;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
-    border: 4px solid rgb(184, 6, 184);
-    box-shadow: 2px 2px 50px purple, inset 2px 2px 10px purple;
-    border-radius: 0px 0px 20px 20px;
-}
-.produ:hover{
-    height: 370px;
-    transition: 0.2s;
-    overflow: auto;
-}
-.produ > p{
-    margin-top: 10px;
-}
-#tec{
-    padding: 20px;
-    background-color: rgb(170, 0, 170);
-
-}
-.list > ul{
-    text-align: center;
-    padding-bottom: 50px;
-}
-.list > ul > a{
-    font-size: 18px;
-    cursor: pointer;
-}
-.list > ul > a:hover{
-    color: white;
-    text-shadow: 2px 2px 15px white;
-    font-size: 19px;
-    transition: .5s;
-}
-#contatos{
-    background-color: white;
-    padding: 30px;
-    text-align: center;
-}
-.div-ctt{
-    margin: 10px 0px 0px 10px;
-    font-size: 20px;
-}
-.div-ctt > a{
-    font-size: 30px;
-    padding: 10px;
-    border-radius: 20px;
-}
-em{
-    font-size: 20px;
-    color: white;
-}
-.btn-ctt{
-    color: purple;
-    border: 1px solid purple;
-}
-.btn-ctt:hover{
-    color: white;
-    background-color: purple;
-    border: 1px solid purple;
-    transition: .5s;
+footer{
+    border: 1px solid black;
+    height: 50vh;
+    padding: 0px 20px;
 }
